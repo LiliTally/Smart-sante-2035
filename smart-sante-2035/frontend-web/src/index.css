@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles globaux - ambiance hopital moderne, claire */
+html, body, #root { height: 100%; }
+body { font-family: 'Inter', system-ui, -apple-system, sans-serif; color: #0f172a; }
+
+/* Classes utilitaires reutilisables */
+.card { @apply bg-white rounded-xl shadow-soft p-5 border border-slate-100; }
+.btn-primary { @apply bg-sky-500 hover:bg-sky-600 text-white font-medium px-5 py-2.5 rounded-lg transition; }
+.btn-secondary { @apply bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium px-5 py-2.5 rounded-lg transition; }
+.btn-danger { @apply bg-alert-500 hover:bg-red-600 text-white font-medium px-5 py-2.5 rounded-lg transition; }
+.input-field { @apply w-full border border-slate-200 rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-sky-200 focus:border-sky-400; }
+.badge { @apply inline-block px-2.5 py-1 text-xs font-semibold rounded-full; }
+.skeleton { @apply animate-pulse bg-slate-100 rounded; }

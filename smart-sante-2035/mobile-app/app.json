@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Smart Sante 2035",
+    "slug": "smart-sante-2035",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": ["android", "ios", "web"],
+    "android": {
+      "package": "mg.smartsante.app"
+    },
+    "extra": {
+      "apiUrl": "http://10.0.2.2:4000/api"
+    }
+  }
+}
